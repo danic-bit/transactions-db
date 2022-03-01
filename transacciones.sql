@@ -56,9 +56,6 @@ ROLLBACK;
 
 --e. Confirmar que se restauró la información, sin considerar la inserción del punto b
 SELECT * FROM cliente;
-COMMIT;
-
-SELECT * FROM cliente;
 
 --f. Habilitar de nuevo el AUTOCOMMIT.
 \set AUTOCOMMIT on
